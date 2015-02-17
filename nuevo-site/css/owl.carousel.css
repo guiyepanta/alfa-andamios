@@ -1,0 +1,284 @@
+
+.car_div {
+	position: absolute;
+	bottom: 0px;
+	left: 0;
+	right: 0;
+	z-index: 999;
+}
+
+.rel {
+	position: relative;
+}
+
+#owl {
+	background-color: #fff;
+	margin: 0 auto;
+	overflow: hidden;
+	z-index: 999;
+	width: 640px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 13px 55px 0 52px;
+	position: relative;
+
+}
+
+
+
+#owl .owl-item {
+	float: left;
+	width: 100%;
+}
+
+#owl .owl-item+.owl-item .item {
+	padding-left: 3px;
+}
+
+#owl .owl-item+.owl-item+.owl-item .item  {
+	padding-left: 3px;
+}
+
+#owl .item {
+	padding: 0 3px;
+	overflow: hidden;
+	position: relative;
+	text-align: left;
+}
+
+
+
+#owl .item img {
+}
+
+#owl .item a {
+	display: block;
+	border: 1px solid #222426;
+}
+
+#owl .item a:hover {
+	border-color: #FFC000;
+}
+
+
+.owl-wrapper-outer {
+	padding-top: 0px;
+	overflow: hidden;
+}
+
+
+#owl .owl-prev, #owl .owl-next {
+	cursor: pointer;
+	position: absolute;
+	display: block;
+	left: 20px;
+	bottom: 24px;
+	overflow: hidden;
+	text-indent: -999px;
+	width: 20px;
+	background: url(../images/prevnext.png) 0 0 no-repeat;
+	height: 20px;
+
+}
+
+
+
+#owl .owl-next {
+	left: auto;
+	right: 22px;
+	background-position: right 0;
+
+}
+#owl .owl-next:hover {
+	background-position: right bottom;
+}
+
+
+
+#owl .owl-prev:hover {
+	background-position: 0 bottom;
+}
+
+
+
+
+
+/* Owl content */
+
+
+
+.owl-carousel .owl-wrapper{
+	display: none;
+	position: relative;
+	-webkit-transform: translate3d(0px, 0px, 0px);
+	-webkit-perspective: 1000;
+}
+
+
+/*2nd*/
+#owl1 {
+	overflow: hidden;
+	z-index: 1;
+	margin: 0 -10px 1px;
+	position: relative;
+
+}
+
+#owl1 blockquote {
+	position: relative;
+	border: 2px solid #ffc000;
+	border-radius: 10px;
+	padding-left: 41px;
+	padding-top: 41px;
+	padding-bottom: 86px;
+	padding-right: 20px;
+	color: #727878;
+	font-size: 14px;
+	line-height: 21px;
+	background: url(../images/quotes.png) 15px 14px no-repeat #fffffd;
+}
+
+#owl1 blockquote .bq_imgs{
+	border: 2px solid #ffc000;
+	 box-sizing: border-box;
+    -moz-box-sizing: border-box; /*Firefox 1-3*/
+    -webkit-box-sizing: border-box; /* Safari */
+	border-radius: 50%;
+	display: block;
+	width: ;
+	left: 50%;
+	margin-left: -62px;
+	position: absolute;
+	width: 123px;
+	bottom: -64px;
+}
+
+#owl1 blockquote .bq_imgs img {
+	border-radius: 500px;
+}
+
+#owl1 .owl-item {
+	float: left;
+	width: 100%;
+}
+
+#owl1 .title {
+	font-weight: bold;
+	margin-bottom: 18px;
+	color: #f1373a;
+	font-size: 18px;
+	text-transform: uppercase;
+	line-height: 20px;
+}
+
+#owl1  .item {
+	padding: 0 10px;
+	line-height: 18px;
+}
+
+
+
+#owl1 .owl-wrapper-outer {
+	overflow: hidden;
+	padding-bottom: 117px;
+}
+
+
+#owl1 .owl-prev, #owl1 .owl-next {
+	cursor: pointer;
+	position: absolute;
+	background: url(../images/prevnext1.png) 0 0 no-repeat;
+	display: block;
+	height: 34px;
+	right: 32px;
+	bottom: 0;
+	left: 50%;
+	margin-left: -23px;
+	width: 20px;
+	overflow: hidden;
+	text-indent: -999px;
+
+}
+
+#owl1 .owl-next {
+	left: auto;
+	margin-left: 0;
+	right: 50%;
+	margin-right: -23px;
+	background-position: right bottom;
+
+}
+#owl1 .owl-next:hover {
+	background-position: right 0;
+}
+
+
+
+#owl1 .owl-prev:hover {
+	background-position: 0 bottom;
+}
+
+
+/*3nd*/
+
+#owl2 {
+	overflow: hidden;
+	z-index: 1;
+	margin-top: 36px;
+	padding: 0 10px;
+	position: relative;
+
+}
+
+
+#owl2 .owl-item {
+	float: left;
+	width: 100%;
+}
+
+
+#owl2  .item {
+	overflow: hidden;
+	line-height: 18px;
+	text-align: center;
+}
+
+
+#owl2 .owl-wrapper-outer {
+	overflow: hidden;
+	padding-top: 0px;
+}
+
+
+#owl2 .owl-prev, #owl2 .owl-next {
+	cursor: pointer;
+	position: absolute;
+	background: url(../images/prevnext3.png) 0 0 no-repeat;
+	display: block;
+	height: 19px;
+	left: 0;
+	top: 9px;
+	width: 11px;
+	overflow: hidden;
+	text-indent: -999px;
+
+}
+
+#owl2 .owl-next {
+	left: auto;
+	right: 0px;
+	background-position: right 0;
+
+}
+#owl2 .owl-next:hover {
+	background-position: right bottom;
+}
+
+
+
+#owl2 .owl-prev:hover {
+	background-position: 0 bottom;
+}
+

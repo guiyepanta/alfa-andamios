@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<!-- saved from url=(0055)http://livedemo00.template-help.com/wt_48140/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+     <title>About us</title>
+     <meta charset="utf-8">
+     <meta name="format-detection" content="telephone=no">
+     <link rel="icon" href="http://livedemo00.template-help.com/wt_48140/images/favicon.ico">
+     <link rel="shortcut icon" href="http://livedemo00.template-help.com/wt_48140/images/favicon.ico">
+     <link rel="stylesheet" href="http://livedemo00.template-help.com/wt_48140/css/camera.css">
+     <link rel="stylesheet" href="http://livedemo00.template-help.com/wt_48140/css/owl.carousel.css">
+     <link rel="stylesheet" href="http://livedemo00.template-help.com/wt_48140/css/style.css">
+     <script type="text/javascript" async="" src="./About us_files/ga.js"></script><script src="./About us_files/jquery.js"></script>
+     <script src="./About us_files/jquery-migrate-1.1.1.js"></script>
+     <script src="./About us_files/script.js"></script><meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0"> 
+     <script src="./About us_files/superfish.js"></script>
+     <script src="./About us_files/jquery.ui.totop.js"></script>
+     <script src="./About us_files/jquery.equalheights.js"></script>
+     <script src="./About us_files/jquery.mobilemenu.js"></script>
+     <script src="./About us_files/jquery.easing.1.3.js"></script>
+     <script src="./About us_files/owl.carousel.js"></script> 
+     <script src="./About us_files/camera.js"></script>
+     <!--[if (gt IE 9)|!(IE)]><!-->
+     <script src="./About us_files/jquery.mobile.customized.min.js"></script>
+     <!--<![endif]-->
+    <script>
+
+       $(document).ready(function(){
+      
+       
+       /////////////////////// camera with owl carousel //////////////////////////
+
+        var $owl = $("#owl"),
+            $camera = $('#camera_wrap');
+       /* carousel */
+        $owl.owlCarousel({
+            items : 3, //10 items above 1000px browser width
+            itemsDesktop : [995,3], //5 items between 1000px and 901px
+            itemsDesktopSmall : [767, 2], // betweem 900px and 601px
+            itemsTablet: [700, 2], //2 items between 600 and 0
+            itemsMobile : [479, 1], // itemsMobile disabled - inherit from itemsTablet option
+            navigation : true,
+            pagination :  false
+        });
+       
+       $camera.camera({
+            loader: false,
+            pagination: true,
+            minHeight: '300',
+            thumbnails: false,
+            height: '53.54077253218884%',
+            caption: true,
+            navigation: false,
+            fx: 'mosaic',
+            time: 4000,
+            onStartTransition:function(){
+              var ind = $camera.find('.camera_pag_ul>li.cameracurrent').index();
+              (ind < 0)&&(ind = 0);
+
+              $('.item', $owl)
+                .removeClass('active')
+                .eq(ind).addClass('active');
+
+              $owl
+                .data('owlCarousel')
+                .goTo(ind);
+            }
+          });
+          
+        $owl.find('.item a').click(function(){
+          var $this = $(this),
+              ind = $this.parents('.owl-item').index();
+          $('.camera_pag_ul>li').eq(ind).click();
+          return false;
+        })
+
+        /////////////////////// end of camera with owl carousel //////////////////////////
+            
+
+            /*Back to Top*/
+        $().UItoTop({ easingType: 'easeOutQuart' });
+            
+
+
+     }); 
+
+
+     </script>
+
+     <!--[if lt IE 8]>
+       <div style=' clear: both; text-align:center; position: relative;'>
+         <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+           <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+         </a>
+      </div>
+    <![endif]-->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <link rel="stylesheet" media="screen" href="css/ie.css">
+
+
+    <![endif]-->
+     </head>
+     <body class="page1" id="top" style="">
+     <header> 
+<div class="main">
+<!--==============================header=================================-->
+ <div class="container_12">
+  <div class="grid_12">
+  
+   <h1>
+        <a href="./About us_files/About us.htm">
+          <img src="./About us_files/logo.png" alt="Your Happy Family">
+        </a>
+      </h1>
+      <div class="links">
+        <a href="http://livedemo00.template-help.com/wt_48140/index.html#">Member Area</a>|<a href="http://livedemo00.template-help.com/wt_48140/index.html#">sitemap</a><span>+1 959 603 6035</span>
+      </div>
+       
+         
+      
+ 
+     <div class="clear"></div>
+
+</div>
+  </div>    
+      </div>
+ <div class="menu_block">
+  <div class="container_12">
+    <div class="grid_12">
+        <nav class="horizontal-nav full-width horizontalNav-notprocessed">
+            <ul class="sf-menu sf-js-enabled sf-arrows">
+                   <li class="current "><a href="./About us_files/About us.htm">About us</a></li>
+                   <li><a href="http://livedemo00.template-help.com/wt_48140/index-1.html"> Services </a></li>
+                   <li><a href="http://livedemo00.template-help.com/wt_48140/index-2.html">Projects</a></li>
+                   <li><a href="http://livedemo00.template-help.com/wt_48140/index-3.html" class="sf-with-ul">Employment</a><ul style="display: none;">
+                        <li><a href="http://livedemo00.template-help.com/wt_48140/index.html#">Vestibulum iaculis</a></li>
+                        <li><a href="http://livedemo00.template-help.com/wt_48140/index.html#"> Fusce euismod conuat</a></li>
+                        <li><a href="http://livedemo00.template-help.com/wt_48140/index.html#" class="sf-with-ul">Pellentesque</a>
+                          <ul style="display: none;">
+                            <li><a href="http://livedemo00.template-help.com/wt_48140/index.html#">Pellentesque sed</a></li>
+                            <li><a href="http://livedemo00.template-help.com/wt_48140/index.html#">Aliquam congue ferm</a></li>
+                            <li><a href="http://livedemo00.template-help.com/wt_48140/index.html#">Mauris accum</a></li>
+                          </ul>
+                        </li>
+                       
+                     </ul></li>
+                   <li><a href="http://livedemo00.template-help.com/wt_48140/index-4.html">Photo Gallery</a></li>
+                   <li><a href="http://livedemo00.template-help.com/wt_48140/index-5.html">Contacts </a></li>
+                 </ul>
+              </nav>
+              <div class="socials">
+        <a href="http://livedemo00.template-help.com/wt_48140/index.html#"><i class="fa  fa-google-plus"></i></a>
+        <a href="http://livedemo00.template-help.com/wt_48140/index.html#"><i class="fa fa-twitter "></i></a>
+        <a href="http://livedemo00.template-help.com/wt_48140/index.html#"><i class="fa fa-facebook"></i></a>
+        <a href="http://livedemo00.template-help.com/wt_48140/index.html#"><i class="fa fa-pinterest "></i></a> 
+        <a href="http://livedemo00.template-help.com/wt_48140/index.html#"><i class="fa  fa-linkedin"></i></a>
+      </div>
+            <div class="clear"></div>
+      </div>
+      </div>
+  </div>
+</header>
+<div class="page_bg">
+<div class="main">
+  <div class="container_12">
+  
+    <div class="grid_12"><div class="slider_wrapper">
+      <div id="camera_wrap" class="camera_wrap" style="display: block; margin-bottom: 96px; height: 499px;"><div class="camera_fakehover"><div class="camera_src camerastarted hovered">
+        <div data-src="images/slide.jpg"></div>
+        <div data-src="images/slide1.jpg"></div>
+        <div data-src="images/slide2.jpg"></div>
+        <div data-src="images/slide3.jpg"></div>
+      </div><div class="camera_target"><div class="cameraCont"><div class="cameraSlide cameraSlide_0" style="visibility: visible; display: none; z-index: 1;"><img src="./About us_files/slide.jpg" class="imgLoaded" data-alignment="" data-portrait="" width="932" height="499" style="visibility: visible; height: 499px; margin-left: 0px; margin-top: 0px; position: absolute; width: 932px;"><div class="camerarelative" style="width: 932px; height: 499px;"></div></div><div class="cameraSlide cameraSlide_1" style="display: none; z-index: 1;"><img src="./About us_files/slide1.jpg" class="imgLoaded" data-alignment="" data-portrait="" width="932" height="499" style="visibility: visible; height: 499px; margin-top: 0px; position: absolute; margin-left: 0px; width: 932px;"><div class="camerarelative" style="width: 932px; height: 499px;"></div></div><div class="cameraSlide cameraSlide_2 cameracurrent" style="display: block; z-index: 999;"><img src="./About us_files/slide2.jpg" class="imgLoaded" style="visibility: hidden;"><div class="camerarelative" style="width: 932px; height: 499px;"></div></div><div class="cameraSlide cameraSlide_3 cameranext" style="display: none;"><img src="http://livedemo00.template-help.com/wt_48140/images/slide3.jpg?1412731442302" class="imgLoaded" data-alignment="" data-portrait="" width="932" height="499" style="visibility: hidden;"><div class="camerarelative" style="width: 932px; height: 499px;"></div></div><div class="cameraSlide cameraSlide_4" style="z-index: 1; display: none;"><div class="camerarelative" style="width: 932px; height: 499px;"></div></div></div></div><div class="camera_overlayer"></div><div class="camera_target_content"><div class="cameraContents"><div class="cameraContent" style="display: none;"></div><div class="cameraContent" style="display: none;"></div><div class="cameraContent cameracurrent" style="display: block;"></div><div class="cameraContent"></div></div></div><div class="camera_bar" style="display: none; top: auto; height: 7px;"><span class="camera_bar_cont" style="opacity: 0.8; position: absolute; left: 0px; right: 0px; top: 0px; bottom: 0px; background-color: rgb(34, 34, 34);"><span id="pie_0" style="opacity: 0.8; position: absolute; background-color: rgb(238, 238, 238); left: 0px; right: 0px; top: 2px; bottom: 2px; display: block;"></span></span></div><div class="camera_commands"><div class="camera_play" style="display: none;"></div><div class="camera_stop" style="display: block;"></div></div></div><div class="camera_pag"><ul class="camera_pag_ul"><li class="pag_nav_0" style="position:relative; z-index:1002"><span><span>0</span></span></li><li class="pag_nav_1" style="position:relative; z-index:1002"><span><span>1</span></span></li><li class="pag_nav_2 cameracurrent" style="position:relative; z-index:1002"><span><span>2</span></span></li><li class="pag_nav_3" style="position:relative; z-index:1002"><span><span>3</span></span></li></ul></div><div class="camera_loader" style="display: none; visibility: visible;"></div></div>
+    <div class="car_div">
+      <div id="owl" class="owl-carousel owl-theme" style="opacity: 1; display: block;">
+        <div class="owl-wrapper-outer"><div class="owl-wrapper" style="width: 1424px; left: 0px; display: block; -webkit-transition: all 200ms ease; transition: all 200ms ease; -webkit-transform: translate3d(-178px, 0px, 0px);"><div class="owl-item" style="width: 178px;"><div class="item"><a href="http://livedemo00.template-help.com/wt_48140/index.html#"><img src="./About us_files/thumb.jpg" alt=""></a></div></div><div class="owl-item" style="width: 178px;"><div class="item"><a href="http://livedemo00.template-help.com/wt_48140/index.html#"><img src="./About us_files/thumb1.jpg" alt=""></a></div></div><div class="owl-item" style="width: 178px;"><div class="item active"><a href="http://livedemo00.template-help.com/wt_48140/index.html#"><img src="./About us_files/thumb2.jpg" alt=""></a></div></div><div class="owl-item" style="width: 178px;"><div class="item"><a href="http://livedemo00.template-help.com/wt_48140/index.html#"><img src="./About us_files/thumb.jpg" alt=""></a></div></div></div></div>
+        
+        
+        
+      <div class="owl-controls clickable"><div class="owl-buttons"><div class="owl-prev">prev</div><div class="owl-next">next</div></div></div></div>
+
+</div>
+    </div>  
+  </div>
+</div>
+<!--==============================Content=================================-->
+
+<div class="content">
+  <div class="container_12 center">
+    <div class="grid_12">
+      <h2>Excellence in Asphalt Paving for over 25 years!<span>Paving the way to any location</span></h2>
+    </div>
+    <div class="grid_3">
+      <a class="icn" href="http://livedemo00.template-help.com/wt_48140/index.html#"><i class="fa fa-clock-o"></i></a>
+      <div class="title"><a href="http://livedemo00.template-help.com/wt_48140/index.html#">Quisque nulla</a></div>Vestibulum iaculis la est. Proin dictum elementum velit. Fusce euismod consdolor sit amet, consectetuer.
+    </div>
+    <div class="grid_3">
+      <a class="icn" href="http://livedemo00.template-help.com/wt_48140/index.html#"><i class="fa  fa-star"></i></a>
+      <div class="title"><a href="http://livedemo00.template-help.com/wt_48140/index.html#">Vestibulum libero</a></div>Vestibulum iaculis la est. Proin dictum elementum velit. Fusce euismod consdolor sit amet, consectetuer.
+    </div>
+    <div class="grid_3">
+      <a class="icn" href="http://livedemo00.template-help.com/wt_48140/index.html#"><i class="fa fa-globe"></i></a>
+      <div class="title"><a href="http://livedemo00.template-help.com/wt_48140/index.html#">Scelerisque eget</a></div>Vestibulum iaculis la est. Proin dictum elementum velit. Fusce euismod consdolor sit amet, consectetuer.
+    </div>
+    <div class="grid_3">
+      <a class="icn" href="http://livedemo00.template-help.com/wt_48140/index.html#"><i class="fa  fa-thumbs-o-up"></i></a>
+      <div class="title"><a href="http://livedemo00.template-help.com/wt_48140/index.html#">Malesuada at</a></div>Vestibulum iaculis la est. Proin dictum elementum velit. Fusce euismod consdolor sit amet, consectetuer.
+    </div>
+  </div>
+  <div class="container_12">
+    <div class="grid_12">
+      <h2 class="head1 center">Providing asphalt paving solution for any demand<span>We are capable of all types of asphalt paving</span></h2>
+    </div>
+    <div class="grid_3">
+      <img src="./About us_files/page1_img1.jpg" alt="" class="img_inner">
+      <div class="text1">Vestibulum liorta vel, scelerisque</div>Vestibululis lacinia est. Proin dictum elementum velit. Fusce euismod consequat ante. Lorem ipsum dolor sit amet, constetuer adipiscing elit. Pelleesque sed dolor. Aliquam congue.
+      <br>
+      <a href="http://livedemo00.template-help.com/wt_48140/index.html#" class="btn">learn more<i class="fa  fa-arrow-right"></i></a>
+    </div>
+    <div class="grid_3">
+      <img src="./About us_files/page1_img2.jpg" alt="" class="img_inner">
+      <div class="text1">Malesuada at, neque vivamus eget</div>Vestibululis lacinia est. Proin dictum elementum velit. Fusce euismod consequat ante. Lorem ipsum dolor sit amet, constetuer adipiscing elit. Pelleesque sed dolor. Aliquam congue.
+      <br>
+      <a href="http://livedemo00.template-help.com/wt_48140/index.html#" class="btn">learn more<i class="fa  fa-arrow-right"></i></a>
+    </div>
+    <div class="grid_3">
+      <img src="./About us_files/page1_img3.jpg" alt="" class="img_inner">
+      <div class="text1">Vivamus eget nibhiam cursus leo vel</div>Vestibululis lacinia est. Proin dictum elementum velit. Fusce euismod consequat ante. Lorem ipsum dolor sit amet, constetuer adipiscing elit. Pelleesque sed dolor. Aliquam congue.
+      <br>
+      <a href="http://livedemo00.template-help.com/wt_48140/index.html#" class="btn">learn more<i class="fa  fa-arrow-right"></i></a>
+    </div>
+    <div class="grid_3">
+      <img src="./About us_files/page1_img4.jpg" alt="" class="img_inner">
+      <div class="text1">Aenean necibulum ante ipsum primis in</div>Vestibululis lacinia est. Proin dictum elementum velit. Fusce euismod consequat ante. Lorem ipsum dolor sit amet, constetuer adipiscing elit. Pelleesque sed dolor. Aliquam congue.
+      <br>
+      <a href="http://livedemo00.template-help.com/wt_48140/index.html#" class="btn">learn more<i class="fa  fa-arrow-right"></i></a>
+    </div>
+  </div>
+  <div class="feedback">
+    <div class="container_12">
+      <div class="grid_8">
+        <div class="f_title">We are interested in hearing from you. </div>
+        <span>Write about your primary interest right now! </span>
+      </div>
+      <div class="grid_4"><a href="http://livedemo00.template-help.com/wt_48140/index.html#">Submit the form</a>
+</div>
+    </div>
+  </div>
+  <div class="container_12">
+    <div class="grid_12">
+    <figure class="vimeo">
+      <iframe class="js-resize" src="./About us_files/25924530.htm"></iframe>
+    </figure>
+      <div class="extra_wrapper">
+        <div class="new">
+          <img src="./About us_files/page1_img5.jpg" alt="" class="img_inner fleft noresize">
+          <div class="extra_wrapper">
+            <time datetime="2013-01-01">12/10/2013<span><a href="http://livedemo00.template-help.com/wt_48140/index.html#">Liorta vel, scelerisque</a></span></time>Fusce euismod c ante. Lorem ipsum dolor sit amet, conser adipcing elit. Pelleesque sed dolor. 
+          </div>
+        </div>
+        <div class="new">
+          <img src="./About us_files/page1_img6.jpg" alt="" class="img_inner fleft noresize">
+          <div class="extra_wrapper">
+            <time datetime="2013-01-01">12/10/2013<span><a href="http://livedemo00.template-help.com/wt_48140/index.html#">Liorta vel, scelerisque</a></span></time>Fusce euismod c ante. Lorem ipsum dolor sit amet, conser adipcing elit. Pelleesque sed dolor. <br><a href="http://livedemo00.template-help.com/wt_48140/index.html#" class="btn">view all <i class="fa  fa-arrow-right"></i></a>
+          </div>
+        </div><div class="alright">
+        </div>
+      </div>
+    </div>
+    <div class="grid_3">
+      <em class="st1">
+        <span class="upp">Concrete Services: </span><a href="http://livedemo00.template-help.com/wt_48140/index.html#">Roads</a>, <a href="http://livedemo00.template-help.com/wt_48140/index.html#">parking lots</a>, <a href="http://livedemo00.template-help.com/wt_48140/index.html#">sidewalks</a>, <a href="http://livedemo00.template-help.com/wt_48140/index.html#">curbs</a>, and <a href="http://livedemo00.template-help.com/wt_48140/index.html#">gutters</a>
+      </em>
+    </div>
+    <div class="grid_3">
+      <h3>Quisque nulla</h3>
+      <ul class="list">
+        <li><i class="fa fa-angle-right"></i>
+      <div><a href="http://livedemo00.template-help.com/wt_48140/index.html#">Sed ut perspicia omnis iste </a></div></li>
+        <li><i class="fa fa-angle-right"></i>
+      <div><a href="http://livedemo00.template-help.com/wt_48140/index.html#">Natus error sit voluptatem </a></div></li>
+        <li><i class="fa fa-angle-right"></i>
+      <div><a href="http://livedemo00.template-help.com/wt_48140/index.html#">Accusantium doloremque </a></div></li>
+        <li><i class="fa fa-angle-right"></i>
+      <div><a href="http://livedemo00.template-help.com/wt_48140/index.html#">Kaudantium, totam rem aperiam </a></div></li>
+        <li><i class="fa fa-angle-right"></i>
+      <div><a href="http://livedemo00.template-help.com/wt_48140/index.html#">Eaque ipsa quae ab illo inventore </a></div></li>
+      </ul>
+    </div>
+    <div class="grid_3">
+      <h3>Proin ullamcorper urna</h3>
+      <ul class="list">
+        <li><i class="fa fa-angle-right"></i>
+      <div><a href="http://livedemo00.template-help.com/wt_48140/index.html#">Quisque nulla  stibulum</a></div></li>
+        <li><i class="fa fa-angle-right"></i>
+      <div><a href="http://livedemo00.template-help.com/wt_48140/index.html#">Nisl, porta vel, scesque eget</a></div></li>
+        <li><i class="fa fa-angle-right"></i>
+      <div><a href="http://livedemo00.template-help.com/wt_48140/index.html#">Malesuada at, neque</a></div></li>
+        <li><i class="fa fa-angle-right"></i>
+      <div><a href="http://livedemo00.template-help.com/wt_48140/index.html#">Vivamus eget nibh</a></div></li>
+        <li><i class="fa fa-angle-right"></i>
+      <div><a href="http://livedemo00.template-help.com/wt_48140/index.html#">Etiam cursus leo vel</a></div></li>
+      </ul>
+    </div>
+    <div class="grid_3">
+      <h3>Voluptas nulla pariatur</h3>
+      <ul class="list">
+        <li><i class="fa fa-angle-right"></i>
+      <div><a href="http://livedemo00.template-help.com/wt_48140/index.html#">Vestibulum iaculis</a></div></li>
+        <li><i class="fa fa-angle-right"></i>
+      <div><a href="http://livedemo00.template-help.com/wt_48140/index.html#">Proin dictum elementum</a></div></li>
+        <li><i class="fa fa-angle-right"></i>
+      <div><a href="http://livedemo00.template-help.com/wt_48140/index.html#">Fusce euismod consequat</a></div></li>
+        <li><i class="fa fa-angle-right"></i>
+      <div><a href="http://livedemo00.template-help.com/wt_48140/index.html#">Lorem ipsum dolor</a></div></li>
+        <li><i class="fa fa-angle-right"></i>
+      <div><a href="http://livedemo00.template-help.com/wt_48140/index.html#">Consectetuer adipiscing </a></div></li>
+      </ul>
+    </div>
+  </div>
+  <div class="logos">
+    <div class="container_12">
+      <div class="grid_12">
+        <h2>Our Clients Include:</h2>
+        <ul>
+          <li><a href="http://livedemo00.template-help.com/wt_48140/index.html#"><img src="./About us_files/logo1.png" alt=""></a></li>
+          <li><a href="http://livedemo00.template-help.com/wt_48140/index.html#"><img src="./About us_files/logo2.png" alt=""></a></li>
+          <li><a href="http://livedemo00.template-help.com/wt_48140/index.html#"><img src="./About us_files/logo3.png" alt=""></a></li>
+          <li><a href="http://livedemo00.template-help.com/wt_48140/index.html#"><img src="./About us_files/logo4.png" alt=""></a></li>
+          <li><a href="http://livedemo00.template-help.com/wt_48140/index.html#"><img src="./About us_files/logo5.png" alt=""></a></li>
+          <li><a href="http://livedemo00.template-help.com/wt_48140/index.html#"><img src="./About us_files/logo6.png" alt=""></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<!--==============================footer=================================-->
+</div></div>
+<footer>   
+<div class="container_12">
+  <div class="grid_3 ">
+    <div class="maxheight" style="height: 386px;"><div class="box_inner">
+      <h4>Services</h4>
+      <ul>
+        <li><a href="http://livedemo00.template-help.com/wt_48140/index.html#">New Construction</a></li>
+        <li><a href="http://livedemo00.template-help.com/wt_48140/index.html#">Parking Lot Paving</a></li>
+        <li><a href="http://livedemo00.template-help.com/wt_48140/index.html#">Asphalt Resurfacing</a></li>
+        <li><a href="http://livedemo00.template-help.com/wt_48140/index.html#">Seal Coating</a></li>
+        <li><a href="http://livedemo00.template-help.com/wt_48140/index.html#">Asphalt Paving</a></li>
+        <li><a href="http://livedemo00.template-help.com/wt_48140/index.html#">Milling</a></li>
+      </ul>
+    </div></div>
+  </div>
+  <div class="grid_3 ver">
+    <div class="maxheight" style="height: 386px;"><div class="box_inner">
+      <h4>Industries</h4>
+      <ul>
+        <li><a href="http://livedemo00.template-help.com/wt_48140/index.html#">Apartments &amp; Hospitality</a></li>
+        <li><a href="http://livedemo00.template-help.com/wt_48140/index.html#">Commercial &amp; Industrial</a></li>
+        <li><a href="http://livedemo00.template-help.com/wt_48140/index.html#">Condominiums</a></li>
+        <li><a href="http://livedemo00.template-help.com/wt_48140/index.html#">Municipalities</a></li>
+        <li><a href="http://livedemo00.template-help.com/wt_48140/index.html#">Retail</a></li>
+        <li><a href="http://livedemo00.template-help.com/wt_48140/index.html#">Schools and Universities</a></li>
+      </ul>
+    </div></div>
+  </div>
+  <div class="none"></div>
+  <div class="grid_3 ver">
+    <div class="maxheight" style="height: 386px;"><div class="box_inner">
+      <h4>GLOBAL NETWORK</h4>
+      <ul>
+        <li><a href="http://livedemo00.template-help.com/wt_48140/index.html#">Asia Pacific</a></li>
+        <li><a href="http://livedemo00.template-help.com/wt_48140/index.html#">Canada</a></li>
+        <li><a href="http://livedemo00.template-help.com/wt_48140/index.html#">Europe, Middle East &amp; Africa</a></li>
+        <li><a href="http://livedemo00.template-help.com/wt_48140/index.html#">Latin America</a></li>
+        <li><a href="http://livedemo00.template-help.com/wt_48140/index.html#">United States</a></li>
+      </ul>
+      <h4>About</h4>
+      <ul class="mb0">
+        <li><a href="http://livedemo00.template-help.com/wt_48140/index.html#">Philosophy</a></li>
+        <li><a href="http://livedemo00.template-help.com/wt_48140/index.html#">Fact Sheet</a></li>
+        <li><a href="http://livedemo00.template-help.com/wt_48140/index.html#">Leadership Team</a></li>
+        <li><a href="http://livedemo00.template-help.com/wt_48140/index.html#">Advisors</a></li>
+        <li><a href="http://livedemo00.template-help.com/wt_48140/index.html#">Frequently Asked Questions</a></li>
+        <li><a href="http://livedemo00.template-help.com/wt_48140/index.html#">Careers</a></li>
+      </ul>
+    </div></div>
+  </div>
+  <div class="grid_3 ver">
+    <div class="maxheight" style="height: 386px;"><div class="box_inner">
+    <div class="copy">
+      <a href="http://livedemo00.template-help.com/wt_48140/index.html#" class="f_logo"><img src="./About us_files/f_logo.png" alt=""></a>
+      <p>Quisque nulla. Vestiero nisl, porta vel, scelerisque eget, malesuada at, neque. Vivamus eget nibh. Etiarsus leo vel metus. Nulla facilisi. Aenean nec eros. Vestibulum ante ipsum primis in faucibus orci luctus et ultricposuere cubilia Curae; Suspendisse sollicitudin velit s pharetra augue n augue. Nam elit magna, hendametincidunt ac, viva sed, nulla. Donec porta diam. Quisque diam lorem, interdum vitae, dapib.</p>
+      <div class="f_phone">+1 959 603 6035</div><span>
+       © <span id="copyright-year">2014</span>  Asphalt Paving. <a href="http://livedemo00.template-help.com/wt_48140/index-6.html">Privacy Policy</a> <!--{%FOOTER_LINK} --></span></div>
+    </div></div>
+  </div>
+  <span class="clear"></span>
+  <ul class="footer_menu">
+     <li class="current "><a href="./About us_files/About us.htm">About us</a></li>
+                   <li><a href="http://livedemo00.template-help.com/wt_48140/index-1.html"> Services </a></li>
+                   <li><a href="http://livedemo00.template-help.com/wt_48140/index-2.html">Projects</a></li>
+                   <li><a href="http://livedemo00.template-help.com/wt_48140/index-3.html">Employment</a></li>
+                   <li><a href="http://livedemo00.template-help.com/wt_48140/index-4.html">Photo Gallery</a></li>
+                   <li><a href="http://livedemo00.template-help.com/wt_48140/index-5.html">Contacts </a></li>
+  </ul>
+</div>  
+</footer>
+<script type="text/javascript">
+ var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-7078796-5']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();</script>
+
+<a href="http://livedemo00.template-help.com/wt_48140/index.html#" id="toTop" style="margin-right: -560px; right: 50%; display: none;"><span id="toTopHover"></span></a></body></html>

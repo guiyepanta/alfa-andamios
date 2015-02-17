@@ -1,0 +1,3 @@
+ALTER TABLE  `productos` ADD  `disponible` INT NOT NULL DEFAULT  '1' AFTER  `idEstado`;
+ALTER TABLE  `productos` ADD  `iva` DECIMAL( 10, 2 ) NOT NULL DEFAULT  '21' AFTER  `disponible`;
+

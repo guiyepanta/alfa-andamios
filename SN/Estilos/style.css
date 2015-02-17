@@ -1,0 +1,229 @@
+BODY
+{
+    FONT-SIZE: 11px;
+    COLOR: #7f7f7f;
+    SCROLLBAR-ARROW-COLOR: #fafafa;
+    FONT-FAMILY: Tahoma, verdana;
+    SCROLLBAR-DARKSHADOW-COLOR: #000000;
+    SCROLLBAR-BASE-COLOR: #c5c5c5;
+    BACKGROUND-COLOR: #ffffff
+}
+IMG
+{
+    BORDER-RIGHT: 0px;
+    BORDER-TOP: 0px;
+    BORDER-LEFT: 0px;
+    BORDER-BOTTOM: 0px
+}
+FORM
+{
+    MARGIN: 0px
+}
+PRE
+{
+    FONT-SIZE: 11px
+}
+A:link
+{
+    FONT-SIZE: 11px;
+    COLOR: #7f7f7f;
+    FONT-FAMILY: Tahoma, verdana;
+    TEXT-DECORATION: none
+}
+A:visited
+{
+    FONT-SIZE: 11px;
+    COLOR: #7f7f7f;
+    FONT-FAMILY: Tahoma, verdana;
+    TEXT-DECORATION: none
+}
+A:active
+{
+    FONT-SIZE: 11px;
+    COLOR: #7f7f7f;
+    FONT-FAMILY: Tahoma, verdana;
+    TEXT-DECORATION: none
+}
+A:hover
+{
+    FONT-SIZE: 11px;
+    COLOR: #7f7f7f;
+    FONT-FAMILY: Tahoma, verdana;
+    TEXT-DECORATION: underline
+}
+H1
+{
+    FONT-SIZE: 28px;
+    FONT-FAMILY: Tahoma, verdana
+}
+H2
+{
+    FONT-SIZE: 24px;
+    FONT-FAMILY: Tahoma, verdana
+}
+H3
+{
+    FONT-SIZE: 18px;
+    FONT-FAMILY: Tahoma, verdana
+}
+H4
+{
+    FONT-SIZE: 11px;
+    FONT-FAMILY: Tahoma, verdana
+}
+FONT
+{
+    FONT-SIZE: 11px;
+    FONT-FAMILY: Tahoma, verdana
+}
+TD
+{
+    FONT-SIZE: 11px;
+    LINE-HEIGHT: 150%;
+    FONT-FAMILY: Tahoma, Verdana
+}
+SELECT
+{
+    BORDER-RIGHT: #c3c3c3 1px solid;
+    BORDER-TOP: #c3c3c3 1px solid;
+    FONT-SIZE: 11px;
+    BACKGROUND: #ffffff;
+    BORDER-LEFT: #c3c3c3 1px solid;
+    WIDTH: 100px;
+    COLOR: #7a7a7a;
+    LINE-HEIGHT: normal;
+    BORDER-BOTTOM: #c3c3c3 1px solid;
+    FONT-STYLE: normal;
+    FONT-FAMILY: Tahoma, Verdana;
+    FONT-VARIANT: normal;
+    TEXT-DECORATION: none
+}
+OPTION
+{
+    BORDER-RIGHT: #c3c3c3 1px solid;
+    BORDER-TOP: #c3c3c3 1px solid;
+    FONT-SIZE: 11px;
+    BACKGROUND: #ffffff;
+    BORDER-LEFT: #c3c3c3 1px solid;
+    COLOR: #7a7a7a;
+    LINE-HEIGHT: normal;
+    BORDER-BOTTOM: #c3c3c3 1px solid;
+    FONT-STYLE: normal;
+    FONT-FAMILY: Tahoma, Verdana;
+    FONT-VARIANT: normal;
+    TEXT-DECORATION: none
+}
+TEXTAREA
+{
+    BORDER-RIGHT: #c3c3c3 1px solid;
+    BORDER-TOP: #c3c3c3 1px solid;
+    FONT-SIZE: 11px;
+    BACKGROUND: #ffffff;
+    BORDER-LEFT: #c3c3c3 1px solid;
+    WIDTH: 250px;
+    COLOR: #7a7a7a;
+    LINE-HEIGHT: normal;
+    BORDER-BOTTOM: #c3c3c3 1px solid;
+    FONT-STYLE: normal;
+    FONT-FAMILY: Tahoma, Verdana;
+    HEIGHT: 130pt;
+    FONT-VARIANT: normal;
+    TEXT-DECORATION: none
+}
+TEXTAREA2
+{
+    BORDER-RIGHT: #c3c3c3 1px solid;
+    BORDER-TOP: #c3c3c3 1px solid;
+    FONT-SIZE: 11px;
+    BACKGROUND: #ffffff;
+    BORDER-LEFT: #c3c3c3 1px solid;
+    COLOR: #7a7a7a;
+    LINE-HEIGHT: normal;
+    BORDER-BOTTOM: #c3c3c3 1px solid;
+    FONT-STYLE: normal;
+    FONT-FAMILY: Tahoma, Verdana;
+    FONT-VARIANT: normal;
+    TEXT-DECORATION: none
+}
+INPUT
+{
+    BORDER-RIGHT: #c3c3c3 1px solid;
+    BORDER-TOP: #c3c3c3 1px solid;
+    FONT-SIZE: 11px;
+    BACKGROUND: #ffffff;
+    BORDER-LEFT: #c3c3c3 1px solid;
+    COLOR: #7a7a7a;
+    LINE-HEIGHT: normal;
+    BORDER-BOTTOM: #c3c3c3 1px solid;
+    FONT-STYLE: normal;
+    FONT-FAMILY: Tahoma, Verdana;
+    FONT-VARIANT: normal;
+    TEXT-DECORATION: none;
+}
+.INPUTRADIO
+{
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    BACKGROUND: #fafafa;
+    BORDER-LEFT: medium none;
+    BORDER-BOTTOM: medium none
+}
+.SUBMIT
+{
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    BACKGROUND: #00586c;
+    BORDER-LEFT: medium none;
+    WIDTH: 300px;
+    COLOR: #ffffff;
+    BORDER-BOTTOM: medium none;
+    HEIGHT: 20px
+}
+.SUBMIT2
+{
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    BACKGROUND: #00586c;
+    BORDER-LEFT: medium none;
+    WIDTH: 130px;
+    COLOR: #ffffff;
+    BORDER-BOTTOM: medium none;
+    HEIGHT: 20px
+}
+.INPUTTEXT
+{
+    BORDER-RIGHT: #136f84 0px solid;
+    PADDING-RIGHT: 0px;
+    BORDER-TOP: #136f84 0px solid;
+    PADDING-LEFT: 0px;
+    PADDING-BOTTOM: 0px;
+    BORDER-LEFT: #136f84 0px solid;
+    COLOR: #136f84;
+    PADDING-TOP: 0px;
+    BORDER-BOTTOM: #136f84 0px solid;
+    BACKGROUND-COLOR: #136f84
+}
+.titulogris
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    COLOR: #7a7a7a;
+    FONT-FAMILY: Tahoma;
+    TEXT-DECORATION: none
+}
+.titulopagina
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 14px;
+    COLOR: #7a7a7a;
+    FONT-FAMILY: Tahoma;
+    TEXT-DECORATION: none
+}
+.bordecelda
+{
+    BORDER-RIGHT: #e5e5e5 1px solid;
+    BORDER-TOP: #e5e5e5 1px solid;
+    BORDER-LEFT: #e5e5e5 1px solid;
+    BORDER-BOTTOM: #e5e5e5 1px solid
+}
+

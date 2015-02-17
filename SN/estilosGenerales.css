@@ -1,0 +1,601 @@
+﻿.print 
+{ 
+  display: none;
+}
+@media Print 
+{
+  .noprint 
+  {
+     display: none;
+  }
+}
+body
+{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; SCROLLBAR-HIGHLIGHT-COLOR: #dffeff; SCROLLBAR-SHADOW-COLOR: #dffeff; COLOR: #0040a0; SCROLLBAR-3DLIGHT-COLOR: #c0c0c0; SCROLLBAR-ARROW-COLOR: #0040a0; SCROLLBAR-TRACK-COLOR: #c0c0c0; FONT-FAMILY: Arial,Verdana,Helvetica; SCROLLBAR-DARKSHADOW-COLOR: #000000; SCROLLBAR-BASE-COLOR: #d9d9d9; scrollbar-faces-color: #dffeff }
+
+.textopedigree
+{ 
+    height: 20px;
+    FONT-SIZE: 7pt;
+    COLOR: black;
+    FONT-FAMILY: Tahoma, Verdana, Arial, helvetica;
+    width: 380 px;
+}
+
+.pagina
+{ padding-top: 10px; FONT-WEIGHT: bold; FONT-SIZE: 10pt; SCROLLBAR-HIGHLIGHT-COLOR: #dffeff; SCROLLBAR-SHADOW-COLOR: #dffeff; COLOR: #0040a0; SCROLLBAR-3DLIGHT-COLOR: #c0c0c0; SCROLLBAR-ARROW-COLOR: #0040a0; SCROLLBAR-TRACK-COLOR: #c0c0c0; FONT-FAMILY: Arial,Verdana,Helvetica; SCROLLBAR-DARKSHADOW-COLOR: #000000; SCROLLBAR-BASE-COLOR: #d9d9d9; scrollbar-faces-color: #dffeff }
+
+.paginapop
+{ FONT-WEIGHT: bold;   background-color:#e1e7f5; FONT-SIZE: 10pt; SCROLLBAR-HIGHLIGHT-COLOR: #dffeff; SCROLLBAR-SHADOW-COLOR: #dffeff; COLOR: #0040a0; SCROLLBAR-3DLIGHT-COLOR: #c0c0c0; SCROLLBAR-ARROW-COLOR: #0040a0; SCROLLBAR-TRACK-COLOR: #c0c0c0; FONT-FAMILY: Arial,Verdana,Helvetica; SCROLLBAR-DARKSHADOW-COLOR: #000000; SCROLLBAR-BASE-COLOR: #d9d9d9; scrollbar-faces-color: #dffeff }
+
+.FdoFld
+{
+	background-color: #e1e7f5;
+}
+
+.Enca
+{
+    COLOR:Black;
+    BACKGROUND-COLOR: #CCCCCC;
+}
+
+.fondologin
+{
+	color: #000000;
+	background-color: #fdfdfd;	
+}
+.mensajeerror
+{
+	color:red;
+	font-family: Arial,Verdana,Helvetica; 
+	font-size: 10pt;   
+	font-weight:bold;
+}
+.opcion
+{
+	font-weight: normal;
+	font-size: 16pt;
+	color: #0054a3;
+	font-style: italic;
+	font-family: Verdana;
+}
+.fondo
+{
+	color: #000000;
+	background-color: #CCCCCC;	
+}
+
+.titulo
+{
+	FONT: bold 8pt/10pt Verdana, Arial, Gill Sans;
+    COLOR: #003784;
+}
+.titulogrande
+{
+	FONT: bold 10pt/12pt Verdana, Arial, Gill Sans;
+    COLOR: #003784;
+}
+
+.desc
+{
+	FONT: 8pt Verdana, Arial, Gill Sans;
+    COLOR: #003784;
+}
+
+.header
+{
+	font-weight: bold;
+	font-size: 9pt;
+	color: #003784;
+	font-family: Arial,Verdana,Helvetica;
+	background-color: #96aedc;
+}
+.headertop
+{
+	font-weight: bold;
+	font-size: 9pt;
+	color: #003784;
+	font-family: Arial,Verdana,Helvetica;
+	background-color: #7893DA;
+}
+
+.pager
+{
+	font-weight: bold;
+	font-size: 8pt;
+	color: #003784;
+	font-family: Verdana,Helvetica;
+	height: 15px;
+	background-color: #96aedc;
+}
+
+.item
+{
+	background-color: White;	
+	height:15px;
+	FONT: 7pt/8pt Verdana, Arial, Gill Sans;
+    COLOR: #003784
+}
+.item2
+{
+	font: 7pt/8pt Verdana, Arial, Gill Sans;
+	color: #003784;
+	height: 15px;
+	background-color: #e1e7f5;
+}
+
+.itemSmall
+{
+	background-color: White;	
+	height:15px;
+	FONT: 8pt 'Arial Narrow' Verdana, Arial, Gill Sans;
+    COLOR: #003784
+}
+
+.itemSmall2
+{
+	font: 8pt 'Arial Narrow' Verdana, Arial, Gill Sans;
+	color: #003784;
+	height: 15px;
+	background-color: #e1f0ff;
+}
+
+.footer
+{
+	font: 7pt/8pt Verdana, Arial, Gill Sans;
+	color: mediumblue;
+	height: 15px;
+	background-color: lightcyan;
+}
+#ext-gen23 
+{
+	background: #fff;
+}
+.boton
+{
+    height: 20px;
+	BORDER-RIGHT: #003784 2px outset;
+    BORDER-TOP: #003784 2px outset;
+    BACKGROUND-IMAGE: none;
+    FONT: 8pt/10pt Verdana, Arial, Gill Sans;
+    BORDER-LEFT: #003784 2px outset;
+    COLOR: #003784;
+    BORDER-BOTTOM: #003784 2px outset;
+    BACKGROUND-REPEAT: repeat;
+    BACKGROUND-COLOR: #e3e9f5;
+    cursor:hand
+}
+
+.botonbusqueda
+{
+	border-right: thin outset;
+	border-top: thin outset;
+	border-left: thin outset;
+	border-bottom: thin outset;
+	cursor: hand;
+}
+
+.cuadrotexto
+{
+    height: 15px;
+    FONT-SIZE: 11px;
+    COLOR: black;
+    FONT-FAMILY: Tahoma, Verdana, Arial, helvetica
+}
+.cuadrotextogrande
+{
+    height: 24px;
+    FONT-SIZE: 11pt;    
+    COLOR: black;
+    FONT-FAMILY: Tahoma, Verdana, Arial, helvetica
+}
+.cuadrotextobusq
+{
+	FONT-SIZE: 8pt;
+	background: lightcyan;
+	color: #21496f;
+	font-family: Arial,Verdana,Helvetica;
+	height: 20px;
+}
+
+.cuadrotextobusqex
+{
+	font-size: 9pt;
+	background: antiquewhite;
+	color: #21496f;
+	font-family: Arial,Verdana,Helvetica;
+	height: 20px;
+}
+
+.cuadrotextodeshab
+{
+	FONT-SIZE: 8pt;
+	background: whitesmoke;
+	color: black;
+	font-family: Arial,Verdana,Helvetica;
+	height: 20px;
+	font-weight:bold;
+}
+
+.textomontodeshab
+{
+	FONT-SIZE: 8pt;
+	background: whitesmoke;
+	color: black;
+	font-family: Arial,Verdana,Helvetica;
+	height: 20px;
+	font-weight:bold;
+	text-align: right;
+}
+
+.textomonto
+{
+	background: white;
+    color: #21496f;
+    height: 20px;
+    font-family: Arial,Verdana,Helvetica;
+    FONT-SIZE: 8pt;
+    text-align: right;   
+}
+.textolibre
+{
+    FONT-SIZE: 8pt;
+    COLOR: black;
+    FONT-FAMILY: Tahoma, Verdana, Arial, helvetica
+}
+
+.textolibredeshab
+{
+    FONT-SIZE: 8pt;
+    background: whitesmoke;
+	color: black;
+	font-family: Arial,Verdana,Helvetica;
+}
+.cuadrotexto2
+{
+	border-top-width:1px;
+	border-top-style:solid;
+	border-top-color:#CCCCCC;
+	border-bottom-width:2px;
+	border-bottom-style:solid;
+	border-bottom-color:black;
+	border-left-width:1px;
+	border-left-style:solid;
+	border-left-color:#CCCCCC;
+	border-right-width:2px;
+	border-right-style:solid;
+	border-right-color:black;	
+}
+
+.marco
+{
+	border-top-width:1px;
+	border-top-style:solid;
+	border-top-color:black;
+	border-bottom-width:1px;
+	border-bottom-style:solid;
+	border-bottom-color:black;
+	border-left-width:1px;
+	border-left-style:solid;
+	border-left-color:black;
+	border-right-width:1px;
+	border-right-style:solid;
+	border-right-color:black;
+}
+
+.marcoPan
+{
+	border-top-width:3px;
+	border-top-style:solid;
+	border-top-color:black;
+	border-bottom-width:3px;
+	border-bottom-style:solid;
+	border-bottom-color:black;
+	border-left-width:3px;
+	border-left-style:solid;
+	border-left-color:black;
+	border-right-width:3px;
+	border-right-style:solid;
+	border-right-color:black;	
+}
+.combo
+{
+    background: white;
+    height: 20px;
+    FONT-SIZE: 8pt;
+    COLOR: black;
+    FONT-FAMILY: Tahoma, Verdana, Arial, helvetica
+}
+.lista
+{
+    background: white;
+    color: #21496f;
+    font-family: Courier New,Verdana,Arial,Helvetica;
+    font-size: 8pt;   
+}
+.check
+{
+    font-family: Arial,Verdana,Helvetica;
+    font-size: 10pt;   
+    font-weight:bold;
+}
+a.solapa
+{
+	font-weight: normal;
+	font-size: 10pt;
+	color: #0040a0;
+	font-family: Arial,Verdana,Helvetica;
+	padding-left: 5px;
+	padding-right: 5px;
+	height: 13px;
+	display:block;
+	TEXT-ALIGN: center; 
+	TEXT-DECORATION: none
+}
+.fileboton
+{
+    color: black;
+    height: 24px;
+    font-family: Verdana,Arial,Helvetica;
+    font-size: 8pt;   
+}
+.listaerrores
+{
+    color: red;
+    font-family: Courier New,Verdana,Arial,Helvetica;
+    font-size: 8pt;   
+}
+.linea
+{
+	border-top-width:0px;
+	border-top-style:none;
+	border-top-color:white;
+	border-bottom-width:4px;
+	border-bottom-style:solid;
+	border-bottom-color:black;
+	border-left-width:0px;
+	border-left-style:none;
+	border-left-color:white;
+	border-right-width:0px;
+	border-right-style:none;
+	border-right-color:white;	
+    font-size: 4pt;   
+    height: 1px;	
+}
+
+.chklst
+{
+	font: bold 8pt/10pt Verdana, Arial, Gill Sans;
+	color: #003784;
+	background-color: white;
+	border-color:#4295ac;
+	border-width:1px;
+	border-style:solid;
+}
+
+.cssMenu
+{
+	background-color: #3b4ead;
+}
+.clMenu
+{
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	margin: 0px;
+	width: 100%;
+	padding-top: 0px;
+}
+.clMenuSub {left:2px; width:100%; display:none; margin: 0px;}
+.clMenuSub2 {left:2px; width:100%; display:none; margin: 0px; font-weight: bolder;}
+.clMenuHidden {height:1px; left:10px; width:100%; visibility:hidden;margin: 0px;}
+.clMenuLinks
+{
+	font-weight: bolder;
+	font-size: 13px;
+	background: #2b4e89;
+	margin: 0px;
+	width: 100%;
+	color: white;
+	font-family: Arial, Verdana, Helvetica, Helv;
+	text-decoration: none;
+}
+
+.clSubLinks
+{
+	margin: 0px;
+	font-weight: bold;
+	font-size: 11px;
+	background: #e6f3fc;
+	width:  100%;
+	color: black;
+	border-bottom: black 1px solid;
+	font-family: Arial, Verdana, Helvetica, Helv;
+	text-decoration: none;
+}
+
+
+.clSubLinks2
+{
+	margin: 0px;
+	font-weight: bold;
+	font-size: 10px;
+	background: #e6f3fc;
+	width: 100%;
+	color: black;
+	border-bottom: black 1px solid;
+	font-family: Arial, Verdana, Helvetica, Helv;
+	text-decoration: none;
+}
+
+.clMenuLinks_sel
+{
+	font-weight: bolder;
+	font-size: 13px;
+	background: #2b4e89;
+	margin: 0px;
+	width: 100%;
+	color: white;
+	font-family: Arial, Verdana, Helvetica, Helv;
+	text-decoration: none;
+}
+.clSubLinks2_sel
+{
+	font-weight: bold;
+	font-size: 10px;
+	background: #badcf9;
+	margin: 0px;
+	width: 100%;
+	color: black;
+	border-bottom: black 1px solid;
+	font-family: Arial, Verdana, Helvetica, Helv;
+	text-decoration: none;
+}
+
+.clSubLinks_sel
+{
+	margin: 0px;
+	font-weight: bold;
+	font-size: 11px;
+	background: #badcf9;
+	width:  100%;
+	color: black;
+	border-bottom: black 1px solid;
+	font-family: Arial, Verdana, Helvetica, Helv;
+	text-decoration: none;
+}
+
+.paneledicion
+{
+	color:#4295ac;
+	background-color: #ffffff;	
+	border-color:#4295ac;
+	border-width:2px;
+	border-style:solid;
+	font-family: Arial,Verdana,Helvetica;
+	font-weight:bold; 
+	font-size:10pt;
+}
+
+.panelediciontransp
+{
+	border-color:#4295ac;
+	border-width:2px;
+	border-style:solid;
+}
+
+
+
+/**********************************
+            CALENDARIO
+***********************************/
+
+#CalendarControlIFrame {
+      display: none;
+      left: 0px;
+      position: absolute;
+      top: 0px;
+      height: 250px;
+      width: 250px;
+      z-index: 99;
+    }
+
+    #CalendarControl {
+      position:absolute;
+      background-color:#FFF;
+      margin:0;
+      padding:0;
+      display:none;
+      z-index: 100;
+    }
+
+    #CalendarControl table {
+      font-family: arial, verdana, helvetica, sans-serif;
+      font-size: 8pt;
+      border-left: 1px solid #336;
+      border-right: 1px solid #336;
+    }
+
+    #CalendarControl th {
+      font-weight: normal;
+    }
+
+    #CalendarControl th a {
+      font-weight: normal;
+      text-decoration: none;
+      color: #FFF;
+      padding: 1px;
+    }
+
+    #CalendarControl td {
+      text-align: center;
+    }
+
+    #CalendarControl .header {
+      background-color: #336;
+    }
+
+    #CalendarControl .weekday {
+      background-color: #DDD;
+      color: #000;
+    }
+
+    #CalendarControl .weekend {
+      background-color: #FFC;
+      color: #000;
+    }
+
+    #CalendarControl .current {
+      border: 1px solid #339;
+      background-color: #336;
+      color: #FFF;
+    }
+
+    #CalendarControl .weekday,
+    #CalendarControl .weekend,
+    #CalendarControl .current {
+      display: block;
+      text-decoration: none;
+      border: 1px solid #FFF;
+      width: 2em;
+    }
+
+    #CalendarControl .weekday:hover,
+    #CalendarControl .weekend:hover,
+    #CalendarControl .current:hover {
+      color: #FFF;
+      background-color: #336;
+      border: 1px solid #999;
+    }
+
+    #CalendarControl .previous {
+      text-align: left;
+    }
+
+    #CalendarControl .next {
+      text-align: right;
+    }
+
+    #CalendarControl .previous,
+    #CalendarControl .next {
+      padding: 1px 3px 1px 3px;
+      font-size: 1.4em;
+    }
+
+    #CalendarControl .previous a,
+    #CalendarControl .next a {
+      color: #FFF;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    #CalendarControl .title {
+      text-align: center;
+      font-weight: bold;
+      color: #FFF;
+    }
+
+    #CalendarControl .empty {
+      background-color: #CCC;
+      border: 1px solid #FFF;
+    }
+   

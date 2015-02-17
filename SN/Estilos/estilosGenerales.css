@@ -1,0 +1,45 @@
+﻿.print 
+{ 
+  display: none;
+}
+@media Print 
+{
+  .noprint 
+  {
+     display: none;
+  }
+}
+body
+{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; SCROLLBAR-HIGHLIGHT-COLOR: #dffeff; SCROLLBAR-SHADOW-COLOR: #dffeff; COLOR: #0040a0; SCROLLBAR-3DLIGHT-COLOR: #c0c0c0; SCROLLBAR-ARROW-COLOR: #0040a0; SCROLLBAR-TRACK-COLOR: #c0c0c0; FONT-FAMILY: Arial,Verdana,Helvetica; SCROLLBAR-DARKSHADOW-COLOR: #000000; SCROLLBAR-BASE-COLOR: #d9d9d9; scrollbar-faces-color: #dffeff }
+
+.textopedigree
+{ 
+    height: 20px;
+    FONT-SIZE: 7pt;
+    COLOR: black;
+    FONT-FAMILY: Tahoma, Verdana, Arial, helvetica;
+    width: 380 px;
+}
+
+.pagina
+{ padding-top: 10px; FONT-WEIGHT: bold; FONT-SIZE: 10pt; SCROLLBAR-HIGHLIGHT-COLOR: #dffeff; SCROLLBAR-SHADOW-COLOR: #dffeff; COLOR: #0040a0; SCROLLBAR-3DLIGHT-COLOR: #c0c0c0; SCROLLBAR-ARROW-COLOR: #0040a0; SCROLLBAR-TRACK-COLOR: #c0c0c0; FONT-FAMILY: Arial,Verdana,Helvetica; SCROLLBAR-DARKSHADOW-COLOR: #000000; SCROLLBAR-BASE-COLOR: #d9d9d9; scrollbar-faces-color: #dffeff }
+
+.paginapop
+{ FONT-WEIGHT: bold;   background-color:#e1e7f5; FONT-SIZE: 10pt; SCROLLBAR-HIGHLIGHT-COLOR: #dffeff; SCROLLBAR-SHADOW-COLOR: #dffeff; COLOR: #0040a0; SCROLLBAR-3DLIGHT-COLOR: #c0c0c0; SCROLLBAR-ARROW-COLOR: #0040a0; SCROLLBAR-TRACK-COLOR: #c0c0c0; FONT-FAMILY: Arial,Verdana,Helvetica; SCROLLBAR-DARKSHADOW-COLOR: #000000; SCROLLBAR-BASE-COLOR: #d9d9d9; scrollbar-faces-color: #dffeff }
+
+.FdoFld
+{
+	background-color: #e1e7f5;
+}
+
+.Enca
+{
+    COLOR:Black;
+    BACKGROUND-COLOR: #CCCCCC;
+}
+
+.fondologin
+{
+	color: #000000;
+	background-color: #fdfdfd;	
+}
